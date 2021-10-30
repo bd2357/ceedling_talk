@@ -40,5 +40,6 @@ void test_cube_twice_cb(void)
 {
     cube_it_StubWithCallback(my_cube_stub);
     TEST_ASSERT_EQUAL(-1, cube_twice(-1));
+    TEST_ASSERT_EQUAL(-19683, cube_twice(-3));
 }
 
