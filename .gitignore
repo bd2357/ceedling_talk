@@ -36,6 +36,9 @@
 *.x86_64
 *.hex
 
+# Temp files
+*.odp#
+
 # Debug files
 *.dSYM/
 *.su
